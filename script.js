@@ -1,6 +1,6 @@
 const stories = {
   books: { label: '01 / BETWEEN PAGES', title: 'I love getting lost in a good book.', detail: 'Reading lets me slow down, explore other perspectives, and discover ideas beyond my everyday world.', symbol: '✦' },
-  games: { label: '02 / PRESS START', title: 'Games keep my curiosity switched on.', detail: 'I enjoy playing games for the fun, the challenge, and the worlds waiting to be explored.', symbol: '✳' },
+  games: { label: '02 / PRESS START', title: 'Games keep my curiosity switched on.', detail: 'I enjoy playing games—for the fun, the challenge, and the worlds waiting to be explored.', symbol: '✳' },
   music: { label: '03 / ON REPEAT', title: 'Music is part of my everyday rhythm.', detail: 'I love playing music. It gives me a creative space away from my screen and adds a little joy to the day.', symbol: '♫' }
 };
 const output = document.getElementById('reveal-output');
@@ -24,6 +24,7 @@ reset.addEventListener('click', () => {
   output.classList.remove('revealed');
   output.innerHTML = '<span class="reveal-kicker">A SMALL WINDOW INTO MY WORLD</span><p>Which side of Simon will you discover first?</p><span class="reveal-decoration" aria-hidden="true">✳</span>';
   reset.hidden = true;
+  cards[0].focus({ preventScroll: true });
 });
 document.getElementById('year').textContent = new Date().getFullYear();
 
