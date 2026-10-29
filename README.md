@@ -202,4 +202,12 @@ Graphic Designer — AWS Student Builder Group, TIP
 
 *Built with curiosity, creativity, and a willingness to learn.*
 
+## 🌐 Live Portfolio
+
+AWS Amplify Hosting:
+https://main.d21yxz1uy068zr.amplifyapp.com/
+
+Region: Asia Pacific (Singapore) — ap-southeast-1
+Branch: main
+
 **AWS Student Builder Challenge 2026**
